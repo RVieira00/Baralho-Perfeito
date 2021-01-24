@@ -1,6 +1,5 @@
 package Main;
 
-import java.math.BigInteger;
 import java.util.Iterator;
 import mycollections.ArrayDeque;
 

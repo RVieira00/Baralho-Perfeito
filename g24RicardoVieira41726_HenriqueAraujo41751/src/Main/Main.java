@@ -4,6 +4,16 @@ public class Main {
 
     public static void main(String[] args) {
 
+        System.out.println("----------TESTAR IN-SHUFFLE/OUT-SHUFFLE----------");
+        a();
+
+        System.out.println("\n---Testar Numero de In-Shuffles ate obter o Baralho Original---");
+        b();
+
+        System.out.println("\n---Testar Numero de Out-Shuffles ate obter o Baralho Original---");
+        c();
+
+        System.out.println("\n---Testar a Mover as 3 Cartas de Topo---\n");
         d();
     }
 
@@ -53,7 +63,7 @@ public class Main {
 
         int numberOfCards = 6;
         int moveToTopo = 3;
-        
+
         Baralho baralho = new Baralho(numberOfCards);
         baralho.moveTopo(moveToTopo, true);
     }
