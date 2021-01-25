@@ -19,11 +19,11 @@ public class Main {
 
     static void a() {
 
-        Baralho baralho = new Baralho(6);
+        Baralho baralho = new Baralho(numberOfCards);
         System.out.println("IN-SHUFFLE");
         baralho.inShuffle();
 
-        Baralho baralho2 = new Baralho(6);
+        Baralho baralho2 = new Baralho(numberOfCards);
         System.out.println("\nOUT-SHUFFLE");
         baralho2.outShuffle();
     }
